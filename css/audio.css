@@ -1,0 +1,25 @@
+.audio,.search,.btn-container {
+    text-align: center;
+    margin: 1em auto;
+}
+
+.control-audio {
+    margin: 2em auto;
+    display: block;
+}
+
+#main-button {
+    background-color: #708090;
+}
+
+.btn-container2 {
+    text-align: center;
+    margin: 1em auto;
+    display: block;
+
+}
+
+
+#slow,#faster {
+    background-color: #708090;
+}
