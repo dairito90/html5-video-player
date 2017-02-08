@@ -1,13 +1,6 @@
+var click = require('./clickhandler.js');
 
-
-$('#main-button').click(function() {
-    var $url = $('#search-box').val();
-    $('audio')[0].src= $url;
-    localStorage.setItem("url", $url);
-    var storage = localStorage.getItem('url')
-    console.log(storage);
-    console.log($url);
-});
+$('#main-button').click(click);
 
 
 $('#slow').click(function(){
